@@ -54,13 +54,6 @@
 
 
 
-var sentence = "The dog jumped over the fence"
-
-var split = sentence.split("")
-
-console.log(split);
-
-console.log(split[3])
 
 
 
