@@ -24,7 +24,7 @@
 //
 // palindrome("racecar")
 
-//Write a function that takes in two or more arrays (of numbers) and checks for duplicates.  The function should output a new array with only the unique numbers.
+// Write a function that takes in two or more arrays (of numbers) and checks for duplicates.  The function should output a new array with only the unique numbers.
 //
 // var a = [1, 2, 3, 5, 10];
 // var b = [2, 30, 1, 17];
@@ -49,6 +49,58 @@
 // }
 //
 // console.log(dedupe(a, b))
+
+
+// function removeVowels(str) {
+//     //create black array that will be returned
+//     var newArr = []
+//     //create a vowels array for comparison
+//     var vowels = ["a","e","i","o","u"]
+//     //create a variable to hold an array of the string argument.
+//     var combined = str.toLowerCase().split("")
+//     console.log(combined);
+//     //use for loop to compare argument array against vowels array.
+//     for(let i = 0; i < combined.length; i++){
+//         if (!vowels.includes(combined[i])){
+//             newArr.push(combined[i])
+//         }
+//     }
+//     // put array back to a string
+//     var join = newArr.join("")
+//     //return new array with vowels removed
+//         return join
+// }
+//
+// console.log(removeVowels(sentence));
+// var sentence = "This website is awesome!"
+//
+// function removeVowels(str) {
+//     //create black array that will be returned
+//     // var newArr = []
+//     //create a vowels array for comparison
+//     var vowels = ["a","e","i","o","u"]
+//     //create a variable to hold an array of the string argument.
+//     var combined = str.toLowerCase().split("")
+//     console.log(combined);
+//     //use for loop to compare argument array against vowels array.
+//     // for(let i = 0; i < combined.length; i++){
+//     //     if (!vowels.includes(combined[i])){
+//     //         newArr.push(combined[i])
+//     //     }
+//     // }
+//     var newArr = combined.filter(v => !vowels.includes(v))
+//
+//     console.log(newArr);
+//
+//     // put array back to a string
+//     var join = newArr.join("")
+//     //return new array with vowels removed
+//         return join
+// }
+//
+// console.log(removeVowels(sentence));
+
+
 
 
 
