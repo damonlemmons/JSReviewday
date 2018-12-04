@@ -80,7 +80,7 @@
 //     //create a vowels array for comparison
 //     var vowels = ["a","e","i","o","u"]
 //     //create a variable to hold an array of the string argument.
-//     var combined = str.toLowerCase().split("")
+//     var combdined = str.toLowerCase().split("")
 //     console.log(combined);
 //     //use for loop to compare argument array against vowels array.
 //     // for(let i = 0; i < combined.length; i++){
@@ -88,6 +88,7 @@
 //     //         newArr.push(combined[i])
 //     //     }
 //     // }
+//  We can do this with filter instead of a for loop
 //     var newArr = combined.filter(v => !vowels.includes(v))
 //
 //     console.log(newArr);
